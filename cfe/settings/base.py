@@ -32,8 +32,8 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     
     
-    # "cloudinary",
-    # "cloudinary_storage",
+    "cloudinary",
+    "cloudinary_storage",
     "django_editorjs",
     
     

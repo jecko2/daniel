@@ -3,8 +3,7 @@ import os
 
 
 
-# SECRET_KEY = os.environ['SECRET_KEY']
-# print(os.environ.get("SECRET_KEY"))
+
 # 
 LOGIN_URL  =""
 LOGOUT_REDIRECT_URL = ""
@@ -33,15 +32,15 @@ import cloudinary_storage
 
 
 
-# CLOUDINARY_STORAGE  = {
-#     # ENVIRON LATTER
-#     "CLOUD_NAME":config('CLOUDINARY_CLOUD_NAME'),
-#     "API_KEY":config("CLOUDINARY_API_KEY"),
-#     "API_SECRET":config("CLOUDINARY_API_SECRET")
-# }
+CLOUDINARY_STORAGE  = {
+    # ENVIRON LATTER
+    "CLOUD_NAME":config('CLOUDINARY_CLOUD_NAME'),
+    "API_KEY":config("CLOUDINARY_API_KEY"),
+    "API_SECRET":config("CLOUDINARY_API_SECRET")
+}
 
 
-# DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
+DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
 
 
 
